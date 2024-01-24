@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div>
+    <ul>
+      <li>Siam</li>
+      <li>Tahmid</li>
+      <li>Rifat</li>
+    </ul>  
+  </div>
+  <h1 id="my_id">DOM Demo</h1> <!-- ei id="heading" code diye h1'r ekta name dewa holo "heading" ja kina pore JS code theke, access nite lagbe-->
+  <h1 class="heading_class">DOM Demo</h1> <!-- jodi multiple element ke ekta same catagory te falaite chai tokhon amra class use kori, ekhn ei class'r moddhe dewa name e CSS JS e eder call kore ei 3ta element e same changes ana jabe -->
+  <h1 class="heading_class">JavaScript</h1>
+  <h1 class="heading_class">Topic1 : Starter code</h1>
+  <p>fisrt paragraph</p>
+  <p>2nd paragraph</p>
+  <button id="my_id1">click Me!</button>
+  <script src="FirstJavaCode.js"></script>
+  <!--
+    ekhane body tag'r under e used all the tags
+      <div></div>
+      <h1></h1>
+      <p></p>
+      <button></button>
+      <script></script>
+    ei sobguloi hocche body tag'r children and body tag hocche eder parents.
+    and ei protita tag eke oporer xib.
+    and ekhane first child hocche <div></div>
+    last child <script></script>
+  -->
+</body>
+</html>
+
